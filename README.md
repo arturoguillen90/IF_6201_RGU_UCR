@@ -1,10 +1,12 @@
-Universidad de Costa Rica
-Sede del Atlántico
-Recinto de Guápiles
----
-# PROGRAMA DEL CURSO
-IF6201 - INFORMÁTICA APLICADA A LOS NEGOCIOS
----
+# 🏛️ Universidad de Costa Rica
+## 🍃 Sede del Atlántico | Recinto de Guápiles
+***
+
+> ### 📝 PROGRAMA DEL CURSO
+> ## **IF6201 - Informática Aplicada a los Negocios**
+> **Profesor:** Lic. Arturo Guillén Berrocal  
+> 📧 [geber.guillen@ucr.ac.cr](mailto:geber.guillen@ucr.ac.cr) | 💼 [Perfil de LinkedIn](https://www.linkedin.com/in/arturo-guill%C3%A9n-85a4b8182/)
+
 ## 1 Datos generales
 - **Sigla**: IF6201
 - **Nombre**: Informática Aplicada a los Negocios
@@ -28,14 +30,3 @@ Este curso explora el papel fundamental de las Tecnologías de Información y Co
 
 Además, se enfatiza el desarrollo de habilidades para gestionar el cambio organizacional y fomentar una cultura de resiliencia e innovación, destacando la importancia del trabajo en equipo para enfrentar los desafíos tecnológicos de manera colaborativa. Los contenidos del curso preparan a las personas estudiantes para liderar iniciativas tecnológicas sostenibles, alineadas con los objetivos estratégicos y en la dinámica del entorno corporativo.
 
-
-## Tutor
-**Lic. Arturo Guillén Berrocal**  
-*Profesor* | **Universidad de Costa Rica (UCR)**  
-
-📞 Teléfono: [+506 8964-9721](tel:+50689649721)  
-📧 Correo: [geber.guillen@ucr.ac.cr](mailto:geber.guillen@ucr.ac.cr)  
-🌐 Sitio web: [www.ucr.ac.cr](https://ucr.ac.cr)  
-💼 Redes: [LinkedIn](https://linkedin.com)  
-
-***
