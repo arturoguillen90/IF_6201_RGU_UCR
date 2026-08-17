@@ -3,13 +3,16 @@
 ## De código que funciona a código mantenible
 
 **Nivel:** 3.er año de Informática Empresarial
-**Lenguaje:** C#
-**Plataforma sugerida:** .NET 10
-**Modalidad:** Práctica guiada
-**Duración estimada:** 4–6 horas
-**Prerequisitos:** Programación orientada a objetos, estructuras de datos, algoritmos y conocimientos básicos de C#.
 
----
+**Lenguaje:** C#
+
+**Plataforma sugerida:** .NET 10
+
+**Modalidad:** Práctica guiada
+
+**Duración estimada:** 4–6 horas
+
+**Prerequisitos:** Programación orientada a objetos, estructuras de datos, algoritmos y conocimientos básicos de C#.
 
 # 1. Propósito del taller
 
