@@ -3,11 +3,17 @@
 ## Desarrollo profesional básico con C#, pruebas, análisis de código y Git
 
 **Curso:** Informática Empresarial – 3.er año
+
 **Plataforma:** Windows 10/11
+
 **Lenguaje:** C#
+
 **Framework:** .NET 10
+
 **IDE/Editor:** Visual Studio Code
+
 **Nivel:** Intermedio
+
 **Modalidad:** Práctica guiada
 
 ---
