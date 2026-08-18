@@ -10,7 +10,7 @@
 
 **Modalidad:** Práctica guiada
 
-**Duración estimada:** 4–6 horas
+**Duración estimada:** 3 horas
 
 **Prerequisitos:** Programación orientada a objetos, estructuras de datos, algoritmos y conocimientos básicos de C#.
 
