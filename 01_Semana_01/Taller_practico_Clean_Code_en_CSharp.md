@@ -2,17 +2,25 @@
 
 ## De código que funciona a código mantenible
 
-**Nivel:** 3.er año de Informática Empresarial
+**Curso**: IF-6201 Informática Aplicada a los Negocios
 
-**Lenguaje:** C#
+**Nivel**: 3er año de Informática Empresarial
 
-**Plataforma sugerida:** .NET 10
+**Plataforma**: Windows 10/11
 
-**Modalidad:** Práctica guiada
+**Framework**: .NET 10
 
-**Duración estimada:** 3 horas
+**Lenguaje**: C#
 
-**Prerequisitos:** Programación orientada a objetos, estructuras de datos, algoritmos y conocimientos básicos de C#.
+**IDE/Editor**: Visual Studio Code
+
+**Nivel**: Intermedio
+
+**Modalidad**: Práctica guiada
+
+**Duración estimada**: 3 horas
+
+**Prerequisitos**: Programación orientada a objetos, estructuras de datos, algoritmos y conocimientos básicos de C#.
 
 # 1. Propósito del taller
 
