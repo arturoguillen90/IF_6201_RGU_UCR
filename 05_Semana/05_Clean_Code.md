@@ -1,26 +1,15 @@
-# Taller práctico: Clean Code en C#
+# Guía práctica de Clean Code en C#
 
-## De código que funciona a código mantenible
+**Curso**: IF-6201 Informática Aplicada a los Negocios  
+**Nivel**: 3er año de Informática Empresarial  
+**Framework**: .NET 10  
+**Lenguaje**: C#  
+**IDE/Editor**: Visual Studio Code  
+**Nivel**: Intermedio  
+**Modalidad**: Guía de referencia  
+**Duración estimada**: 1 hora  
 
-**Curso**: IF-6201 Informática Aplicada a los Negocios
-
-**Nivel**: 3er año de Informática Empresarial
-
-**Plataforma**: Windows 10/11
-
-**Framework**: .NET 10
-
-**Lenguaje**: C#
-
-**IDE/Editor**: Visual Studio Code
-
-**Nivel**: Intermedio
-
-**Modalidad**: Práctica guiada
-
-**Duración estimada**: 3 horas
-
-**Prerequisitos**: Programación orientada a objetos, estructuras de datos, algoritmos y conocimientos básicos de C#.
+---
 
 # 1. Propósito del taller
 

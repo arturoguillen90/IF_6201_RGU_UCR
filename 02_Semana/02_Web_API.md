@@ -2,11 +2,12 @@
 
 **Curso**: IF-6201 Informática Aplicada a los Negocios  
 **Nivel**: 3er año de Informática Empresarial  
-**Plataforma**: Windows 10/11  
 **Framework**: .NET 10  
 **Lenguaje**: C#  
 **IDE/Editor**: Visual Studio Code  
-**Duración estimada**: 1 hora  
+**Nivel**: Intermedio  
+**Modalidad**: Guía de implementación  
+**Duración estimada**: 1.5 hora 
 
 ---
 

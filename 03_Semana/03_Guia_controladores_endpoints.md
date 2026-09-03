@@ -1,5 +1,14 @@
 # Guía de Controladores y Enlace de Parámetros (Binding) en .NET Web API
 
+**Curso**: IF-6201 Informática Aplicada a los Negocios  
+**Nivel**: 3er año de Informática Empresarial  
+**Framework**: .NET 10  
+**Lenguaje**: C#  
+**IDE/Editor**: Visual Studio Code  
+**Nivel**: Intermedio  
+**Modalidad**: Guía de referencia  
+**Duración estimada**: 20 minutos  
+
 Esta guía explica la estructura estándar para nombrar operaciones en un controlador de .NET Web API y detalla las distintas formas que existen para consumir endpoints utilizando los atributos de enlace de datos (*Parameter Binding*).
 
 ---

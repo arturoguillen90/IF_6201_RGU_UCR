@@ -2,25 +2,14 @@
 
 ## Desarrollo profesional básico con C#, pruebas, análisis de código y Git
 
-**Curso**: IF-6201 Informática Aplicada a los Negocios
-
-**Nivel**: 3er año de Informática Empresarial
-
-**Plataforma**: Windows 10/11
-
-**Framework**: .NET 10
-
-**Lenguaje**: C#
-
-**IDE/Editor**: Visual Studio Code
-
-**Nivel**: Intermedio
-
-**Modalidad**: Práctica guiada
-
-**Duración estimada**: 3 horas
-
-**Prerequisitos**: Ninguno.
+**Curso**: IF-6201 Informática Aplicada a los Negocios  
+**Nivel**: 3er año de Informática Empresarial  
+**Framework**: .NET 10  
+**Lenguaje**: C#  
+**IDE/Editor**: Visual Studio Code  
+**Nivel**: Intermedio  
+**Modalidad**: Guía de implementación  
+**Duración estimada**: 1 hora  
 
 ---
 
