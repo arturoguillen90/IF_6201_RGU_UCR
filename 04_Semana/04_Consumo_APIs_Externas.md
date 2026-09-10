@@ -541,7 +541,7 @@ Utiliza la herramienta Scalar (disponible en `https://localhost:{puerto}/scalar`
 curl -X GET "https://localhost:7000/api/astronomypictureoftheday?fecha=2026-09-02" \
   -H "accept: application/json"
 ```
-
+Prestar atención en sus consolas si el puerto que se habilita es http o https para usar el correcto, en este ejemplo es https, pero en cada PC genera un host diferente.
 ---
 
 ## 9. Patrones Clave Utilizados
