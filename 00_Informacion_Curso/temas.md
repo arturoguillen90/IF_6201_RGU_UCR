@@ -1,0 +1,24 @@
+# Temas
+- Clean Code
+- SOLID
+- Clean Architecture
+- Hexagonal Architecture
+- Domain-Driven Design
+- Design Patterns
+- Dependency Injection
+- APIs REST
+- GraphQL
+- Webhooks
+- Event-driven architecture
+- Microservicios
+- Modular Monolith
+- CQRS
+- Event Sourcing
+- Arquitectura orientada a eventos
+- ADR — Architecture Decision Records
+- C4 Model
+- Technical Debt
+- Code smells
+- Refactoring
+- Versionamiento semántico
+- API versioning
