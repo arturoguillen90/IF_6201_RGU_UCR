@@ -929,21 +929,92 @@ La dirección de la dependencia es parte fundamental de la evaluación.
 
 ---
 
-# 24. Rúbrica de evaluación
+## 24. Organización, requisitos y rúbrica
 
-| Criterio                                                      |  Puntos |
-| ------------------------------------------------------------- | ------: |
-| Análisis de arquitectura original                             |      10 |
-| Identificación correcta de casos de uso                       |      10 |
-| Separación del dominio                                        |      10 |
-| Implementación de puertos de entrada                          |      10 |
-| Implementación de puertos de salida                           |      10 |
-| Adaptadores de entrada REST + Console                         |      10 |
-| Adaptadores de salida                                         |      10 |
-| Dependency Injection e inversión de dependencias              |      10 |
-| Presentación y demostración en vivo                           |      10 |
-| Capacidad de sustituir adaptadores sin modificar casos de uso |      10 |
-| **Total**                                                     | **100** |
+### 24.1 Organización de los equipos
+
+La práctica se realizará en **6 equipos**, distribuidos de la siguiente manera:
+
+* **5 equipos de 4 estudiantes**.
+* **1 equipo de 3 estudiantes**.
+* **Total: 23 estudiantes**.
+
+Cada equipo deberá coordinar la distribución de responsabilidades entre sus integrantes, procurando que todos participen en el desarrollo y comprendan la arquitectura implementada.
+
+### 24.2 Requisitos técnicos obligatorios
+
+El proyecto deberá cumplir con los siguientes requisitos:
+
+* Utilizar **C# y .NET**.
+* Desarrollarse dentro de una **misma solución de Visual Studio**.
+* Incluir como mínimo:
+
+  * Un proyecto **Web API**.
+  * Un proyecto **Console** que simule una interfaz de usuario.
+  * Los proyectos de biblioteca necesarios para implementar el **core y la Arquitectura Hexagonal**.
+* El proyecto deberá estar almacenado en un **repositorio Git**.
+* El repositorio deberá contener el código fuente y los archivos necesarios para ejecutar y comprender el proyecto.
+* La Web API y la aplicación de consola deberán utilizar el **mismo core**, evitando duplicar las reglas de negocio.
+* La implementación deberá utilizar **inyección de dependencias**.
+* Se deberá respetar la separación entre:
+
+  * Dominio.
+  * Aplicación / casos de uso.
+  * Puertos.
+  * Adaptadores de entrada.
+  * Adaptadores de salida.
+
+### 24.3 Investigación requerida
+
+Esta práctica **no pretende proporcionar paso a paso todas las implementaciones técnicas**. Parte del trabajo consiste en que el equipo investigue y resuelva los aspectos necesarios para completar la solución.
+
+Entre los temas que probablemente deberán investigar se encuentran:
+
+* Cómo crear y configurar una conexión con **SQL Server** desde C#.
+* Cómo implementar la persistencia de información utilizando SQL Server.
+* Cómo implementar un adaptador para **enviar correos electrónicos**.
+* Cómo configurar e implementar **inyección de dependencias** en los proyectos correspondientes.
+* Cómo crear una **interfaz de usuario mediante consola** utilizando menús, lectura de datos y presentación de resultados.
+* Cómo hacer que la aplicación de consola invoque los casos de uso mediante los puertos de entrada.
+* Cómo configurar correctamente las referencias entre los diferentes proyectos de la solución.
+* Cómo trabajar con **Git**, realizar commits y mantener actualizado el repositorio.
+* Cómo resolver los problemas técnicos que aparezcan durante la integración de los diferentes componentes.
+
+La investigación, selección de alternativas técnicas y resolución de estos aspectos forma parte del aprendizaje esperado de la práctica.
+
+### 24.4 Presentación en vivo
+
+Cada equipo deberá **presentar el proyecto en vivo durante la clase**.
+
+Durante la presentación deberán demostrar, como mínimo:
+
+1. Ejecución de la aplicación Web API.
+2. Ejecución de la aplicación de consola.
+3. Ejecución de los casos de uso solicitados.
+4. Persistencia de información mediante el adaptador correspondiente.
+5. Funcionamiento del mecanismo de notificación.
+6. Uso del mismo core desde los diferentes adaptadores de entrada.
+7. Estructura de proyectos y dependencias de la solución.
+8. Repositorio Git utilizado para el desarrollo.
+
+La presentación deberá permitir comprobar que la solución implementada corresponde realmente a una **Arquitectura Hexagonal** y no únicamente a una organización de carpetas con nombres relacionados con dicha arquitectura.
+
+### 24.5 Rúbrica
+
+| Criterio                                                                          |    Valor |
+| --------------------------------------------------------------------------------- | -------: |
+| Implementación correcta del dominio y reglas de negocio                           |      15% |
+| Implementación de casos de uso y puertos de entrada                               |      15% |
+| Implementación de puertos y adaptadores de salida                                 |      15% |
+| Implementación de los dos adaptadores de entrada: Web API y Console               |      15% |
+| Uso correcto de inyección de dependencias y dirección de dependencias             |      10% |
+| Persistencia en SQL Server y funcionamiento del adaptador de notificación         |      10% |
+| Organización de la solución, calidad del código y separación de responsabilidades |      10% |
+| Repositorio Git, integración del trabajo y presentación en vivo                   |      10% |
+| **Total**                                                                         | **100%** |
+
+> **Importante:** Las **pruebas unitarias no forman parte de esta práctica** y no serán requeridas como entregable ni como criterio de evaluación.
+
 
 ---
 
