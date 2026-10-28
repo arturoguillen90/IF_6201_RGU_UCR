@@ -85,7 +85,7 @@ export class InventarioService {
   }
 }
 ```
-![src/inventario/inventario.service.ts](inventario.service.ts)
+![src/inventario/inventario.service.ts](inventario.service.ts.png)
 
 
 ### 3. DTO de Ventas (`src/ventas/dto/crear-venta.dto.ts`)
