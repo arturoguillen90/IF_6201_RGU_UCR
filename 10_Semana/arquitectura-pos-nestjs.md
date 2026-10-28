@@ -1,5 +1,15 @@
 # Arquitectura de Backend para un POS con NestJS
 
+**Curso**: IF-6201 Informática Aplicada a los Negocios  
+**Nivel**: 3er año de Informática Empresarial  
+**Frameworks**: Nest.js  
+**Lenguaje**: Typescript  
+**IDE/Editor**: Visual Studio Code  
+**Herramientas**: N/A 
+**Nivel**: Intermedio  
+**Modalidad**: Guía de referencia  
+**Duración estimada**: 1 hora  
+
 Este documento detalla la estructura modular recomendada para el backend de un sistema de Punto de Venta (POS) utilizando NestJS y TypeScript.
 
 ---
