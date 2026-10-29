@@ -241,5 +241,5 @@ frontend/
 4. **Validación de Datos (Backend):**
    * Todas las peticiones entrantes al backend deben validarse utilizando los DTOs e integrando `class-validator` y `class-transformer`.
   
-   * ## 11 UI de Referencia:
+## 11 UI de Referencia:
 [POS Terminal UI](https://agentestudio.com/cases/pos-ui-design)
