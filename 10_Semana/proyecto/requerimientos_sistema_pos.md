@@ -241,5 +241,18 @@ frontend/
 4. **Validación de Datos (Backend):**
    * Todas las peticiones entrantes al backend deben validarse utilizando los DTOs e integrando `class-validator` y `class-transformer`.
   
-## 11 UI de Referencia:
+## 11. UI de Referencia:
 [POS Terminal UI](https://agentestudio.com/cases/pos-ui-design)
+
+## 12. Fechas de Entregas:
+- 1ra. Entrega Miércoles 11/11/2026
+- 2da. Entrega Miércoles 25/11/2026
+
+## 13. Rubrica de Evaluación:
+
+## 14. Notas:
+Se permite usar en el frontend el framework [Next.js](https://nextjs.org/) para [React](https://react.dev/).
+Para el backend usar framework [Nest.js](https://nestjs.com/).
+Siempre usar [typescript](https://www.typescriptlang.org/) ya sea en front o back.
+
+
