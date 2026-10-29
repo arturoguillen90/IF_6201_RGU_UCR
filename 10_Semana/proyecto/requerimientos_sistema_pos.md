@@ -250,6 +250,55 @@ frontend/
 
 ## 13. Rubrica de Evaluación:
 
+
+| Criterio de Evaluación | Puntuación Máxima |
+| :--- | :---: |
+| 1. Arquitectura y Estructura del Backend (NestJS) | 25 pts |
+| 2. Interfaz de Usuario y Experiencia en Frontend (React) | 25 pts |
+| 3. Funcionalidad del Negocio y Lógica del POS | 25 pts |
+| 4. Buenas Prácticas, Seguridad y Control de Versiones | 15 pts |
+| 5. Documentación y Presentación en Vivo | 10 pts |
+| **Total** | **100 pts** |
+
+---
+
+## Detalle de Criterios de Evaluación
+
+### 1. Arquitectura y Estructura del Backend (NestJS) — [25 Puntos]
+
+* **Excelente (21–25 pts):** Implementa una estructura modular limpia (`AuthModule`, `ProductsModule`, `SalesModule`). Usa DTOs con validaciones estrictas (`class-validator`), manejo adecuado de Inyección de Dependencias, entidades bien relacionadas y respuestas HTTP con los códigos de estado correctos (200, 201, 400, 401, 404).
+* **Bueno (15–20 pts):** Estructura modular correcta, pero falta validación en algunos DTOs o la separación de lógica entre controladores y servicios no es del todo clara.
+* **En Desarrollo (8–14 pts):** Toda la lógica de negocio está concentrada en los controladores o no se utilizan DTOs/Módulos de forma adecuada.
+* **Deficiente (0–7 pts):** El backend presenta errores frecuentes, no compila o carece de estructura modular.
+
+### 2. Interfaz de Usuario y Experiencia en Frontend (React) — [25 Puntos]
+
+* **Excelente (21–25 pts):** Interfaz fluida, responsive y bien organizada en componentes/layouts. Las llamadas a la API están encapsuladas exclusivamente en la capa de `services/`. Maneja correctamente estados globales (Context API para carrito y autenticación) y muestra notificaciones claras de carga y error (toasts/modales).
+* **Bueno (15–20 pts):** Diseño visual aceptable y funcional. Alguna llamada HTTP se realiza directamente dentro de una página o el manejo del carrito de compras presenta pequeños fallos visuales.
+* **En Desarrollo (8–14 pts):** La interfaz es poco intuitiva, no es responsive, no hay separación clara entre componentes y lógica, o el estado global falla constantemente.
+* **Deficiente (0–7 pts):** La aplicación cliente se rompe al interactuar o no se conecta adecuadamente con la API.
+
+### 3. Funcionalidad del Negocio y Lógica del POS — [25 Puntos]
+
+* **Excelente (21–25 pts):** Cumple al 100% con los flujos requeridos: CRUD de productos, filtrado/búsqueda rápida en caja, cálculo atómico del carrito (subtotal, IVA, cambio), descuento automático de inventario tras realizar una venta y reporte/métricas de ventas.
+* **Bueno (15–20 pts):** El flujo básico de venta e inventario funciona, pero falta algún cálculo secundario (ej. cálculo del cambio o alertas de stock mínimo) o el descuento de stock tiene fallos ocasionales.
+* **En Desarrollo (8–14 pts):** Solo funciona la gestión de productos (CRUD), pero el proceso de cobro en caja o la actualización de inventario no están completados.
+* **Deficiente (0–7 pts):** La mayoría de las funcionalidades clave del POS no están operativas.
+
+### 4. Buenas Prácticas, Seguridad y Control de Versiones — [15 Puntos]
+
+* **Excelente (13–15 pts):** Autenticación funcional mediante JWT con Guards en NestJS y Rutas Protegidas en React. Contraseñas cifradas (`bcrypt`). Uso activo de Git con ramas, commits descriptivos de todos los integrantes y el archivo `.env` está fuera del control de versiones (incluyendo `.env.example`).
+* **Bueno (9–12 pts):** Implementa JWT y Guards, pero el historial de commits muestra poca participación de algún integrante o se olvidó incluir el archivo `.env.example`.
+* **En Desarrollo (5–8 pts):** La autenticación es débil o incompleta (ej. tokens sin validar en backend), contraseñas en texto plano o pocos commits en el repositorio.
+* **Deficiente (0–4 pts):** No hay mecanismos de seguridad o el repositorio de Git fue creado a último momento con un solo commit.
+
+### 5. Documentación y Presentación en Vivo — [10 Puntos]
+
+* **Excelente (9–10 pts):** Presenta un `README.md` completo con instrucciones claras de ejecución local. Incluye Swagger/Postman para probar la API. La demostración en vivo es fluida y todos los integrantes del equipo demuestran dominio del código desarrollado.
+* **Bueno (6–8 pts):** `README.md` básico pero suficiente. Buen desenvolvimiento en la presentación, aunque con pequeñas dudas al responder sobre partes específicas de la arquitectura.
+* **En Desarrollo (3–5 pts):** Documentación incompleta o difícil de seguir para levantar el proyecto localmente. Demostración en vivo con tropiezos técnicos.
+* **Deficiente (0–2 pts):** Sin documentación. El equipo no logra ejecutar el sistema durante la defensa.
+
 ## 14. Notas:
 - Se permite usar en el frontend el framework [Next.js](https://nextjs.org/) para [React](https://react.dev/).
 - Para el backend usar framework [Nest.js](https://nestjs.com/).
