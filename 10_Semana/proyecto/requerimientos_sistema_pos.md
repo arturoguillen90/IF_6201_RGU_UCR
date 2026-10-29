@@ -245,8 +245,8 @@ frontend/
 [POS Terminal UI](https://agentestudio.com/cases/pos-ui-design)
 
 ## 12. Fechas de Entregas:
-- 1ra. Entrega Miércoles 11/11/2026
-- 2da. Entrega Miércoles 25/11/2026
+- 1ra. Entrega Miércoles 11/11/2026 (10%)
+- 2da. Entrega Miércoles 25/11/2026 (10%)
 
 ## 13. Rubrica de Evaluación:
 
