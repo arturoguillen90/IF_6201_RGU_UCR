@@ -251,8 +251,8 @@ frontend/
 ## 13. Rubrica de Evaluación:
 
 ## 14. Notas:
-Se permite usar en el frontend el framework [Next.js](https://nextjs.org/) para [React](https://react.dev/).
-Para el backend usar framework [Nest.js](https://nestjs.com/).
-Siempre usar [typescript](https://www.typescriptlang.org/) ya sea en front o back.
+- Se permite usar en el frontend el framework [Next.js](https://nextjs.org/) para [React](https://react.dev/).
+- Para el backend usar framework [Nest.js](https://nestjs.com/).
+- Siempre usar [typescript](https://www.typescriptlang.org/) ya sea en front o back.
 
 
