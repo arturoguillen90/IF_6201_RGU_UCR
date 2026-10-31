@@ -304,4 +304,15 @@ frontend/
 - Para el backend usar framework [Nest.js](https://nestjs.com/).
 - Siempre usar [typescript](https://www.typescriptlang.org/) ya sea en front o back.
 
+## 15. Grupos:
+
+| Grupo | Integrantes |
+|--------|-------------|
+| **Grupo 1** | Melanie Katrina Barboza Benavides, Andrés Jesús Acosta Rivera, Harry Jozeph Ortiz Álvarez, Kevin Andrés Vargas Miranda |
+| **Grupo 2** | Flor Hortencia Astorga Gutiérrez, Joseph Yaffeth Alfaro Zúñiga, Cristian Francisco Morera Herrera, Yosimar Esteban Solano Campos |
+| **Grupo 3** | Fiorella Espinoza Aguilar, Luis Ricardo Chavarría Granados, Milton Jesús Muñoz Murillo, Dylan Josué Zúñiga Rojas |
+| **Grupo 4** | Naidelyn Fiorella Hernández Ramírez, Víctor Hugo Cordero Murillo, Allan Mejía Luna, Ilian Edison Ramírez Quirós |
+| **Grupo 5** | Belinda Crystal Ordoñez Corea, Nolan David González Mora, Deyber Jeremi Scott González, Kenneth Mauricio Solera Campos |
+| **Grupo 6** | Suritsy Zúñiga Artavia, José Antonio Ortega Loria, Jesús Valentín Vargas Delgado |
+
 
