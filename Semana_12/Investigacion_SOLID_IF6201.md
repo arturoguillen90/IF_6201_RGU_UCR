@@ -1,4 +1,4 @@
-# Investigación académica: Principios SOLID aplicados al desarrollo de software con C
+# Investigación académica: Principios SOLID aplicados al desarrollo de software con C#
 
 **Curso**: IF-6201 Informática Aplicada a los Negocios\
 **Nivel**: 3er año de Informática Empresarial\
